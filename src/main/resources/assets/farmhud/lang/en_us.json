@@ -1,0 +1,6 @@
+{
+  "category.farmhud": "FARM HUD",
+  "key.farmhud.toggle_hud": "HUD 켜기/끄기",
+  "key.farmhud.reset_session": "세션 초기화",
+  "key.farmhud.open_config": "설정 열기"
+}

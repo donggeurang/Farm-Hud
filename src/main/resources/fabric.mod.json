@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "farmhud",
+	"version": "${version}",
+	"name": "FarmHud",
+	"description": "세션 기준 누적 수확량/수익/시간당 수익을 HUD에 표시합니다.",
+	"authors": [
+		"donghan"
+	],
+	"license": "MIT",
+	"icon": "assets/farmhud/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.donghan.farmhud.FarmHudClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "farmhud.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
